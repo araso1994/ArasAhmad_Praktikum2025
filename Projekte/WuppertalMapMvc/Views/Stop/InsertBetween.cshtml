@@ -1,0 +1,34 @@
+﻿@model WuppertalMapMvc.Models.InsertBetweenViewModel
+@{
+    ViewData["Title"] = "Haltestelle zwischen zwei Punkten einfügen";
+}
+
+<h2>Neue Haltestelle zwischen zwei bestehenden einfügen</h2>
+
+<form asp-action="InsertBetween" method="post">
+    <div class="form-group">
+        <label for="StartStopId">Vor welcher Haltestelle?</label>
+        <select asp-for="StartStopId" asp-items="Model.StopList" class="form-control"></select>
+    </div>
+    <div class="form-group">
+        <label for="EndStopId">Nach welcher Haltestelle?</label>
+        <select asp-for="EndStopId" asp-items="Model.StopList" class="form-control"></select>
+    </div>
+    <div class="form-group">
+        <label for="Name">Name der neuen Haltestelle</label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="Lines">Linien (z. B. 603,611)</label>
+        <input asp-for="Lines" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="Latitude">Breitengrad</label>
+        <input asp-for="Latitude" type="number" step="any" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="Longitude">Längengrad</label>
+        <input asp-for="Longitude" type="number" step="any" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-success">Einfügen</button>
+</form>

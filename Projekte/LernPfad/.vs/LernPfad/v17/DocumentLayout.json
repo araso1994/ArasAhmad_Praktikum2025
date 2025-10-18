@@ -1,0 +1,373 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\araso\\LernPfad\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|c:\\users\\araso\\lernpfad\\views\\lernpfad\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|solutionrelative:views\\lernpfad\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|c:\\users\\araso\\lernpfad\\views\\lernpfad\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|solutionrelative:views\\lernpfad\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|c:\\users\\araso\\lernpfad\\controllers\\lernschrittcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|solutionrelative:controllers\\lernschrittcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|c:\\users\\araso\\lernpfad\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|c:\\users\\araso\\lernpfad\\controllers\\lernpfadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|solutionrelative:controllers\\lernpfadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|c:\\users\\araso\\lernpfad\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|c:\\users\\araso\\lernpfad\\models\\lernpfad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|solutionrelative:models\\lernpfad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|c:\\users\\araso\\lernpfad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|c:\\users\\araso\\lernpfad\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|c:\\users\\araso\\lernpfad\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|c:\\users\\araso\\lernpfad\\views\\lernpfad\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|solutionrelative:views\\lernpfad\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|c:\\users\\araso\\lernpfad\\views\\lernpfad\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|solutionrelative:views\\lernpfad\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|c:\\users\\araso\\lernpfad\\views\\lernpfad\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|solutionrelative:views\\lernpfad\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|c:\\users\\araso\\lernpfad\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|c:\\users\\araso\\lernpfad\\models\\lernschritt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|solutionrelative:models\\lernschritt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|c:\\users\\araso\\lernpfad\\views\\lernpfad\\preview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|solutionrelative:views\\lernpfad\\preview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|c:\\users\\araso\\lernpfad\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|c:\\users\\araso\\lernpfad\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|c:\\users\\araso\\lernpfad\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|c:\\users\\araso\\lernpfad\\views\\lernschritt\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|solutionrelative:views\\lernschritt\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|c:\\users\\araso\\lernpfad\\lernpfad.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|solutionrelative:lernpfad.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|c:\\users\\araso\\lernpfad\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F4F7CDDF-4E62-4D6D-837E-58EF9319B301}|LernPfad.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\araso\\LernPfad\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\araso\\LernPfad\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-22T11:58:10.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LernpfadController.cs",
+              "DocumentMoniker": "C:\\Users\\araso\\LernPfad\\Controllers\\LernpfadController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LernpfadController.cs",
+              "ToolTip": "C:\\Users\\araso\\LernPfad\\Controllers\\LernpfadController.cs",
+              "RelativeToolTip": "Controllers\\LernpfadController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T11:30:20.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\araso\\LernPfad\\Views\\Lernpfad\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Lernpfad\\Index.cshtml",
+              "ToolTip": "C:\\Users\\araso\\LernPfad\\Views\\Lernpfad\\Index.cshtml",
+              "RelativeToolTip": "Views\\Lernpfad\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T10:24:11.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\araso\\LernPfad\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\araso\\LernPfad\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T09:29:40.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\araso\\LernPfad\\Views\\Lernpfad\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Lernpfad\\Create.cshtml",
+              "ToolTip": "C:\\Users\\araso\\LernPfad\\Views\\Lernpfad\\Create.cshtml",
+              "RelativeToolTip": "Views\\Lernpfad\\Create.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAqwFQAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T10:59:27.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\araso\\LernPfad\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\araso\\LernPfad\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T09:26:14.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\araso\\LernPfad\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\araso\\LernPfad\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T08:36:16.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\araso\\LernPfad\\Views\\Lernpfad\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Lernpfad\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\araso\\LernPfad\\Views\\Lernpfad\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Lernpfad\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T06:58:41.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\araso\\LernPfad\\Views\\Lernpfad\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Lernpfad\\Details.cshtml",
+              "ToolTip": "C:\\Users\\araso\\LernPfad\\Views\\Lernpfad\\Details.cshtml",
+              "RelativeToolTip": "Views\\Lernpfad\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T06:58:17.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\araso\\LernPfad\\Views\\Lernpfad\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Lernpfad\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\araso\\LernPfad\\Views\\Lernpfad\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Lernpfad\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T18:12:27.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Lernpfad.cs",
+              "DocumentMoniker": "C:\\Users\\araso\\LernPfad\\Models\\Lernpfad.cs",
+              "RelativeDocumentMoniker": "Models\\Lernpfad.cs",
+              "ToolTip": "C:\\Users\\araso\\LernPfad\\Models\\Lernpfad.cs",
+              "RelativeToolTip": "Models\\Lernpfad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:55:02.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\araso\\LernPfad\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\araso\\LernPfad\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-12T10:47:27.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Lernschritt.cs",
+              "DocumentMoniker": "C:\\Users\\araso\\LernPfad\\Models\\Lernschritt.cs",
+              "RelativeDocumentMoniker": "Models\\Lernschritt.cs",
+              "ToolTip": "C:\\Users\\araso\\LernPfad\\Models\\Lernschritt.cs",
+              "RelativeToolTip": "Models\\Lernschritt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:57:10.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Preview.cshtml",
+              "DocumentMoniker": "C:\\Users\\araso\\LernPfad\\Views\\Lernpfad\\Preview.cshtml",
+              "RelativeDocumentMoniker": "Views\\Lernpfad\\Preview.cshtml",
+              "ToolTip": "C:\\Users\\araso\\LernPfad\\Views\\Lernpfad\\Preview.cshtml",
+              "RelativeToolTip": "Views\\Lernpfad\\Preview.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T10:30:45.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\araso\\LernPfad\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\araso\\LernPfad\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T13:47:54.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LernschrittController.cs",
+              "DocumentMoniker": "C:\\Users\\araso\\LernPfad\\Controllers\\LernschrittController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LernschrittController.cs",
+              "ToolTip": "C:\\Users\\araso\\LernPfad\\Controllers\\LernschrittController.cs",
+              "RelativeToolTip": "Controllers\\LernschrittController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T09:38:35.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\araso\\LernPfad\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\araso\\LernPfad\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T10:01:08.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\araso\\LernPfad\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\araso\\LernPfad\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T18:21:36.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\araso\\LernPfad\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\araso\\LernPfad\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T09:28:42.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\araso\\LernPfad\\Views\\Lernschritt\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Lernschritt\\Index.cshtml",
+              "ToolTip": "C:\\Users\\araso\\LernPfad\\Views\\Lernschritt\\Index.cshtml",
+              "RelativeToolTip": "Views\\Lernschritt\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T11:03:03.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LernPfad.csproj",
+              "DocumentMoniker": "C:\\Users\\araso\\LernPfad\\LernPfad.csproj",
+              "RelativeDocumentMoniker": "LernPfad.csproj",
+              "ToolTip": "C:\\Users\\araso\\LernPfad\\LernPfad.csproj",
+              "RelativeToolTip": "LernPfad.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-09T09:47:13.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\araso\\LernPfad\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\araso\\LernPfad\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-09T09:30:14.373Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

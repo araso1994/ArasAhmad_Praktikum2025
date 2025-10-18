@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - WuppertalMapMvc</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Meine eigene CSS -->
+    <link rel="stylesheet" href="@Url.Content("~/css/style.css")" />
+</head>
+<body>
+    <header class="bg-light border-bottom mb-4">
+        <div class="container">
+            <nav class="navbar navbar-expand-sm navbar-light">
+                <a class="navbar-brand" href="/">WuppertalMapMvc</a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">Startseite</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Kontakt">Kontakt</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Stop">Haltestellen verwalten</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        @RenderBody()
+    </main>
+
+    <footer class="border-top text-muted py-3 mt-5">
+        <div class="container text-center">
+            
+        </div>
+    </footer>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

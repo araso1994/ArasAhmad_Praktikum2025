@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Haltestellen-Netz";
+}
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+
+    <link rel="stylesheet" href="~/css/style.css" />
+
+    <style>
+        #graph {
+            min-height: 600px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="top-label">🌿 Die grüne Landschaft</div>
+
+    <div id="intro">
+        <h1>Willkommen in Wuppertal – Stadt der Bewegung!</h1>
+        <p>Entdecke auf der Karte symbolisch einige Bushaltestellen – Knotenpunkte der Bewegung in einer Stadt, die niemals stillsteht.</p>
+    </div>
+
+    <!-- Suchfeld -->
+    <div id="suche">
+        <input type="text" id="suchfeld" placeholder="Haltestelle suchen..." />
+    </div>
+
+    <!-- Netzkarte -->
+    <h1>Haltestellen-Netz Wuppertal</h1>
+    <div id="graph"></div>
+
+    <!-- Neue Haltestelle hinzufügen -->
+    
+
+    <div id="info-box" style="display:none;"></div>
+
+    <!-- D3.js laden -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="~/js/nextskills_style_map.js" type="module"></script>
+
+</body>
+</html>

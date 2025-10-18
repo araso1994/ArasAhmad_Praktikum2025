@@ -1,0 +1,65 @@
+﻿@model IEnumerable<LernPfad.Models.Lernpfad>
+@using System.Text.RegularExpressions
+
+<h2>Bibliothek</h2>
+
+
+<form method="get" class="mb-4">
+    <div class="row">
+        <div class="col-md-5">
+            <input type="text" name="suchtext" value="@ViewBag.Suchtext" class="form-control" placeholder="Nach Titel suchen..." />
+        </div>
+        <div class="col-md-4">
+            <select name="autor" class="form-select">
+                <option value="">Alle Autoren</option>
+                @foreach (var a in (IEnumerable<string>)ViewBag.Autoren)
+                {
+                    string isSelected = (ViewBag.AktiverAutor as string) == a ? "selected" : "";
+                    <option value="@a" selected="@isSelected">@a</option>
+                }
+            </select>
+
+
+
+        </div>
+        <div class="col-md-3">
+            <button type="submit" class="btn btn-primary w-100">Filtern</button>
+        </div>
+    </div>
+</form>
+
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @foreach (var pfad in Model)
+    {
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+
+                @* Bild anzeigen, wenn vorhanden *@
+                @if (!string.IsNullOrEmpty(pfad.BildPfad))
+                {
+                    <img src="@pfad.BildPfad" class="card-img-top" alt="Vorschaubild" style="max-height: 200px; object-fit: cover;">
+                }
+
+            <div class="card-body">
+                <h5 class="card-title">@pfad.Titel</h5>
+
+                @* HTML aus Beschreibung entfernen und kürzen *@
+                @{
+                        var cleanText = Regex.Replace(pfad.Beschreibung ?? "", "<.*?>", "");
+                        var kurz = cleanText.Length > 100 ? cleanText.Substring(0, 100) + "..." : cleanText;
+                }
+
+                <p class="card-text">@kurz</p>
+
+                <a asp-action="Details" asp-route-id="@pfad.Id" class="btn btn-primary">Ansehen</a>
+                <a asp-action="Edit" asp-route-id="@pfad.Id" class="btn btn-warning btn-sm">Bearbeiten</a>
+
+                <form asp-action="Delete" asp-route-id="@pfad.Id" method="post" onsubmit="return confirm('Diesen Lernpfad wirklich löschen?');">
+                 <button type="submit" class="btn btn-danger btn-sm">🗑️ Löschen</button>
+                </form>
+            </div>
+            </div>
+        </div>
+    }
+</div>

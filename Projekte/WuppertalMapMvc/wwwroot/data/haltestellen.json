@@ -1,0 +1,65 @@
+{
+  "nodes": [
+    {
+      "id": "4",
+      "name": "Alter Markt",
+      "lat": 51.2751,
+      "lon": 7.2022
+    },
+    {
+      "id": "5",
+      "name": "Wall/Museum",
+      "lat": 51.2569,
+      "lon": 7.1432
+    },
+    {
+      "id": "6",
+      "name": "Wuppertal Hauptbahnhof",
+      "lat": 51.2562,
+      "lon": 7.1508
+    },
+    {
+      "id": "27",
+      "name": "Neuenteich",
+      "lat": 51.2556,
+      "lon": 7.1489
+    },
+    {
+      "id": "102",
+      "name": "Zoo",
+      "lat": 51.251,
+      "lon": 7.2
+    },
+    {
+      "id": "103",
+      "name": "Stadion",
+      "lat": 51.258,
+      "lon": 7.18
+    },
+    {
+      "id": "107",
+      "name": "Universit\u00e4t",
+      "lat": 51.26,
+      "lon": 7.21
+    },
+    {
+      "id": "108",
+      "name": "Schloss",
+      "lat": 51.252,
+      "lon": 7.22
+    },
+    {
+      "id": "109",
+      "name": "Park",
+      "lat": 51.248,
+      "lon": 7.23
+    },
+    {
+      "id": "132",
+      "name": "Karlplatz",
+      "lat": 51.2554,
+      "lon": 7.1485
+    }
+  ],
+  "links": []
+}

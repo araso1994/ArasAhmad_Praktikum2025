@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\araso\\WuppertalMapMvc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC1E4ED-6EEA-4B87-88F1-62E00D97A158}|WuppertalMapMvc.csproj|c:\\users\\araso\\wuppertalmapmvc\\wuppertalmapmvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7FC1E4ED-6EEA-4B87-88F1-62E00D97A158}|WuppertalMapMvc.csproj|solutionrelative:wuppertalmapmvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WuppertalMapMvc",
+              "DocumentMoniker": "C:\\Users\\araso\\WuppertalMapMvc\\WuppertalMapMvc.csproj",
+              "RelativeDocumentMoniker": "WuppertalMapMvc.csproj",
+              "ToolTip": "C:\\Users\\araso\\WuppertalMapMvc\\WuppertalMapMvc.csproj",
+              "RelativeToolTip": "WuppertalMapMvc.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-17T17:39:16.591Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

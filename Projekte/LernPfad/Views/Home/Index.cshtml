@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Bibliothek";
+}
+
+<h1 class="mb-4">Bibliothek</h1>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @model IEnumerable<LernPfad.Models.Lernpfad>
+        @using System.Text.RegularExpressions
+
+        @{
+    ViewData["Title"] = "Bibliothek";
+        }
+
+        <h1 class="mb-4">Bibliothek</h1>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            @foreach (var pfad in Model)
+    {
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+
+                    @if (!string.IsNullOrEmpty(pfad.BildPfad))
+                {
+                    <img src="@pfad.BildPfad" class="card-img-top" alt="Bild" style="max-height: 200px; object-fit: cover;">
+                }
+                else
+                {
+                    <img src="https://via.placeholder.com/400x200?text=Lernpfad" class="card-img-top" alt="Platzhalter">
+                }
+
+                    <div class="card-body">
+                        <h5 class="card-title">@pfad.Titel</h5>
+                        @{
+                        var cleanText = Regex.Replace(pfad.Beschreibung ?? "", "<.*?>", "");
+                        var kurz = cleanText.Length > 100 ? cleanText.Substring(0, 100) + "..." : cleanText;
+                        }
+                        <p class="card-text">@kurz</p>
+                    </div>
+
+                    <div class="card-footer d-flex justify-content-between">
+                        <a asp-action="Details" asp-route-id="@pfad.Id" class="btn btn-primary btn-sm">Ansehen</a>
+                        <a asp-action="Edit" asp-route-id="@pfad.Id" class="btn btn-warning btn-sm">Bearbeiten</a>
+                    </div>
+
+                </div>
+            </div>
+    }
+        </div>
+
+</div>

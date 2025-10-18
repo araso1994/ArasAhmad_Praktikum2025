@@ -1,0 +1,28 @@
+@model WuppertalMapMvc.Models.Stop
+@{
+    ViewData["Title"] = "Neue Haltestelle";
+}
+
+<h2>Neue Haltestelle</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group mb-3">
+        <label>Name</label>
+        <input asp-for="Name" class="form-control" required />
+    </div>
+    <div class="form-group mb-3">
+        <label>Linien</label>
+        <input asp-for="LinesRaw" class="form-control" />
+    </div>
+    <div class="form-group mb-3">
+        <label>Breitengrad (Latitude)</label>
+        <input asp-for="Latitude" class="form-control" />
+    </div>
+    <div class="form-group mb-3">
+        <label>Längengrad (Longitude)</label>
+        <input asp-for="Longitude" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-success">Speichern</button>
+    <a class="btn btn-secondary" href="/Stop">Abbrechen</a>
+</form>

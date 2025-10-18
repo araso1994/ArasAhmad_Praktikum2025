@@ -1,0 +1,19 @@
+﻿@model LernPfad.Models.Lernpfad
+
+@{
+    ViewData["Title"] = "Lernpfad löschen";
+}
+
+<h2>Möchten Sie diesen Lernpfad wirklich löschen?</h2>
+
+<div>
+    <h4>@Model.Titel</h4>
+    <p><strong>Beschreibung:</strong> @Model.Beschreibung</p>
+    <p><strong>Autor:</strong> @Model.AutorId</p>
+</div>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Löschen</button>
+    <a asp-action="Index" class="btn btn-secondary">Abbrechen</a>
+</form>

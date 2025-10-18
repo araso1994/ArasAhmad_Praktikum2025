@@ -1,0 +1,199 @@
+﻿@model LernPfad.Models.Lernpfad
+
+@{
+    ViewData["Title"] = "Interaktiven Lernpfad erstellen";
+}
+
+<h2>Interaktiven Lernpfad erstellen</h2>
+
+<<form asp-action="Create" method="post" enctype="multipart/form-data">
+
+    <div class="form-group">
+        <label asp-for="Titel"></label>
+        <input asp-for="Titel" class="form-control" />
+        <span asp-validation-for="Titel" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mt-3">
+        <label asp-for="Beschreibung"></label>
+        <textarea asp-for="Beschreibung" class="form-control" id="Beschreibung"></textarea>
+        <span asp-validation-for="Beschreibung" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mt-3">
+        <label asp-for="AutorId"></label>
+        <input asp-for="AutorId" class="form-control" />
+        <span asp-validation-for="AutorId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mt-3">
+        <label for="BildDatei">Vorschaubild hochladen</label>
+        <input type="file" name="BildDatei" class="form-control" accept="image/*" />
+    </div>
+
+
+    <hr />
+    <h4>Lernschritte</h4>
+    <div id="lernschritte-container" class="timeline mt-4"></div>
+
+    <button type="button" class="btn btn-outline-primary mt-3" onclick="addLernschritt()">
+        <span style="font-size: 1.5rem;">&#43;</span> Lernschritt hinzufügen
+    </button>
+
+    <button type="submit" class="btn btn-success mt-4">Speichern</button>
+</form>
+
+@section Scripts {
+    <script src="https://cdn.ckeditor.com/ckeditor5/41.4.2/classic/ckeditor.js"></script>
+    <script>
+        const editors = {};
+        let counter = 0;
+
+        function addLernschritt() {
+            const container = document.getElementById("lernschritte-container");
+
+            const html = `
+                <div class="lernschritt-box border p-3 mb-3 position-relative" id="step-${counter}">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <div class="circle-icon">➤</div>
+                        <input type="text" name="Schritte[${counter}].Titel" class="form-control ms-2 me-2" placeholder="Benenne den Lernschritt" />
+                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="toggleContent(this)" title="Ein-/Ausblenden">▼</button>
+                        <button type="button" class="btn btn-sm btn-outline-danger ms-2" onclick="deleteStep(${counter})" title="Löschen">❌</button>
+                    </div>
+                    <div class="lernschritt-content mt-2">
+                        <textarea id="step-editor-${counter}" name="Schritte[${counter}].Inhalt" class="form-control mb-2" placeholder="Beschreibe den Lernauftrag"></textarea>
+                        <input type="hidden" name="Schritte[${counter}].Reihenfolge" value="${counter + 1}" />
+                    </div>
+
+                   <div class="form-group mt-3">
+                        <label>Vorschaubild hochladen</label>
+                        <input type="file" name="BildDatei" class="form-control" accept="image/*" />
+                    </div>
+
+
+                </div>`;
+
+            container.insertAdjacentHTML("beforeend", html);
+
+            setTimeout(() => {
+                const stepTextarea = document.getElementById(`step-editor-${counter}`);
+                if (stepTextarea) {
+                    ClassicEditor
+                        .create(stepTextarea)
+                        .then(editor => {
+                            editors[`step-editor-${counter}`] = editor;
+                            console.log(`✅ Editor für Schritt ${counter} geladen`);
+                        })
+                        .catch(error => console.error("❌ Fehler beim CKEditor (Lernschritt):", error));
+                }
+
+                enableDragDrop();
+
+            }, 50);
+
+            counter++;
+        }
+
+        function toggleContent(button) {
+            const content = button.closest(".lernschritt-box").querySelector(".lernschritt-content");
+            content.classList.toggle("d-none");
+        }
+
+        function deleteStep(id) {
+            const element = document.getElementById(`step-${id}`);
+            if (element) element.remove();
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const beschreibungElement = document.getElementById("Beschreibung");
+            if (beschreibungElement) {
+                ClassicEditor
+                    .create(beschreibungElement)
+                    .then(editor => {
+                        editors["Beschreibung"] = editor;
+                        console.log("✅ CKEditor für Beschreibung geladen");
+                    })
+                    .catch(error => console.error("❌ Fehler bei CKEditor (Beschreibung):", error));
+            }
+
+            document.querySelector("form").addEventListener("submit", function () {
+                for (let id in editors) {
+                    const editor = editors[id];
+                    const textarea = document.getElementById(id);
+                    if (editor && textarea) {
+                        textarea.value = editor.getData();
+                    }
+                }
+            });
+        });
+    </script>
+
+    <script>
+        // Drag & Drop für Lernschritte aktivieren
+        function enableDragDrop() {
+            const container = document.getElementById("lernschritte-container");
+            let dragged;
+
+            container.querySelectorAll(".lernschritt-box").forEach(item => {
+                item.setAttribute("draggable", true);
+
+                item.addEventListener("dragstart", (e) => {
+                    dragged = item;
+                    e.dataTransfer.effectAllowed = "move";
+                    item.classList.add("dragging");
+                });
+
+                item.addEventListener("dragend", () => {
+                    dragged.classList.remove("dragging");
+                    updateReihenfolge();
+                });
+
+                item.addEventListener("dragover", (e) => {
+                    e.preventDefault();
+                    const bounding = item.getBoundingClientRect();
+                    const offset = bounding.y + bounding.height / 2;
+                    if (e.clientY - offset > 0) {
+                        item.style["border-bottom"] = "2px solid #007bff";
+                        item.style["border-top"] = "";
+                    } else {
+                        item.style["border-top"] = "2px solid #007bff";
+                        item.style["border-bottom"] = "";
+                    }
+                });
+
+                item.addEventListener("dragleave", () => {
+                    item.style["border-bottom"] = "";
+                    item.style["border-top"] = "";
+                });
+
+                item.addEventListener("drop", (e) => {
+                    e.preventDefault();
+                    item.style["border-bottom"] = "";
+                    item.style["border-top"] = "";
+
+                    const bounding = item.getBoundingClientRect();
+                    const offset = bounding.y + bounding.height / 2;
+
+                    if (e.clientY - offset > 0) {
+                        item.after(dragged);
+                    } else {
+                        item.before(dragged);
+                    }
+
+                    updateReihenfolge();
+                });
+            });
+        }
+
+        // Reihenfolge nach Drag & Drop neu setzen
+        function updateReihenfolge() {
+            const items = document.querySelectorAll(".lernschritt-box");
+            items.forEach((el, index) => {
+                const input = el.querySelector('input[name*="Reihenfolge"]');
+                if (input) input.value = index + 1;
+            });
+        }
+    </script>
+
+
+}

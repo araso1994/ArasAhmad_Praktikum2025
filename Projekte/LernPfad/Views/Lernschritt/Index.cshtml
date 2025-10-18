@@ -1,0 +1,33 @@
+﻿@model IEnumerable<LernPfad.Models.Lernschritt>
+@{
+    ViewData["Title"] = "Lernschritte";
+    int lernpfadId = (int)ViewBag.LernpfadId;
+}
+
+<h2>Lernschritte</h2>
+
+<p>
+    <a asp-action="Create" asp-route-lernpfadId="@lernpfadId" class="btn btn-primary">
+        Neuen Schritt hinzufügen
+    </a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Reihenfolge</th>
+            <th>Titel</th>
+            <th>Inhalt</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var s in Model)
+        {
+            <tr>
+                <td>@s.Reihenfolge</td>
+                <td>@s.Titel</td>
+                <td>@s.Inhalt</td>
+            </tr>
+        }
+    </tbody>
+</table>

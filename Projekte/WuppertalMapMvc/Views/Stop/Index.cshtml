@@ -1,0 +1,43 @@
+﻿@model IEnumerable<WuppertalMapMvc.Models.Stop>
+    @{
+    ViewData["Title"] = "Haltestellen Übersicht";
+    }
+
+    <h2>Alle Haltestellen</h2>
+    <h3>Neue Haltestelle hinzufügen</h3>
+    <p>Wähle die Position:</p>
+    <ul>
+        <li><a href="/Stop/Create?position=start" class="btn btn-outline-primary">➕ Am Anfang</a></li>
+        <li><a href="/Stop/Create?position=end" class="btn btn-outline-primary">➕ Am Ende</a></li>
+        <li><a href="/Stop/InsertBetween" class="btn btn-outline-primary">➕ Zwischen zwei Haltestellen</a></li>
+    </ul>
+
+
+    <p>
+        <a class="btn btn-success" href="/Stop/Create">+ Neue Haltestelle</a>
+    </p>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Linien</th>
+                <th>Position (Lat, Lng)</th>
+                <th>Aktionen</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var stop in Model)
+        {
+            <tr>
+                <td>@stop.Name</td>
+                <td>@string.Join(", ", stop.Lines)</td>
+                <td>@stop.Latitude, @stop.Longitude</td>
+                <td>
+                    <a class="btn btn-sm btn-primary" href="/Stop/Edit/@stop.Id">Bearbeiten</a>
+                    <a class="btn btn-sm btn-danger" href="/Stop/Delete/@stop.Id">Löschen</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>

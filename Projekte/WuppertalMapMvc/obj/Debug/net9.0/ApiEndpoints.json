@@ -1,0 +1,48 @@
+[
+  {
+    "ContainingType": "WuppertalMapMvc.Controllers.HaltestellenNetzController",
+    "Method": "Get",
+    "RelativePath": "api/HaltestellenNetz",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StopApiController",
+    "Method": "GetStops",
+    "RelativePath": "api/StopApi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StopApiController",
+    "Method": "CreateStop",
+    "RelativePath": "api/StopApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stop",
+        "Type": "WuppertalMapMvc.Models.Stop",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WuppertalMapMvc.Controllers.StopConnectionController",
+    "Method": "GetConnections",
+    "RelativePath": "api/StopConnection",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

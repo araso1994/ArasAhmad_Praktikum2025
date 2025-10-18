@@ -1,0 +1,42 @@
+﻿@model LernPfad.Models.Lernpfad
+
+@{
+    ViewData["Title"] = "Vorschau";
+}
+
+<h2>@Model.Titel</h2>
+<p class="text-muted">@Model.Beschreibung</p>
+
+<div class="timeline">
+    @foreach (var schritt in Model.Schritte.OrderBy(s => s.Reihenfolge))
+    {
+        <div class="timeline-item">
+            <h4>@schritt.Titel</h4>
+            <p>@schritt.Inhalt</p>
+        </div>
+    }
+</div>
+
+<style>
+    .timeline {
+        border-left: 4px solid #007bff;
+        margin: 20px 0;
+        padding-left: 20px;
+    }
+
+    .timeline-item {
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+        .timeline-item::before {
+            content: '';
+            width: 12px;
+            height: 12px;
+            background-color: #007bff;
+            border-radius: 50%;
+            position: absolute;
+            left: -26px;
+            top: 4px;
+        }
+</style>
